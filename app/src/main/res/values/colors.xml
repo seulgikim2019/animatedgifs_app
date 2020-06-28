@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#008577</color>-->
+<!--    <color name="colorPrimaryDark">#00574B</color>-->
+<!--    <color name="colorAccent">#D81B60</color>-->
+    <color name="colorPrimary">#aaaaff</color>
+    <color name="colorPrimaryDark">#3c3c8c</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="actionbar_text">#000000</color>
+    <color name="mycolor">#DE7065FF</color>
+    <color name="mycolor1">#F68F46FF</color>
+</resources>

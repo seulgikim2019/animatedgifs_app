@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">움짤공작소</string>
+    <string name="toast_image_intent_null">선택한 옵션을 확인할 수 없습니다</string>
+    <string name="lbl_set_profile_photo">프로필사진</string>
+    <string name="lbl_take_camera_picture">카메라로 찍기</string>
+    <string name="lbl_choose_from_gallery">앨범에서 가져오기</string>
+
+    <!-- font families -->
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_regular">sans-serif</string>
+    <string name="font_family_condensed">sans-serif-condensed</string>
+    <string name="font_family_black">sans-serif-black</string>
+    <string name="font_family_thin">sans-serif-thin</string>
+    <string name="dialog_permission_title">권한 설정</string>
+    <string name="dialog_permission_message">움짤공작소는 카메라, 외부저장소의 권한이 요구됩니다.</string>
+    <string name="go_to_settings">권한 설정하러 가기</string>
+
+    <string name="select_video">영상을 선택해주세요!</string>
+    <string name="download_btn">다운로드</string>
+    <string name="share_btn">공 유</string>
+    <string name="play_btn">재 생</string>
+
+    <string name="my_page_btn">마이 페이지</string>
+
+    <string name="admob_app_id">ca-app-pub-9108324995240499~1471184913</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9108324995240499/2592694891</string>
+    <string name="banner_ad_unit_id_for_test">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>
+

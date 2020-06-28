@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:id="@+id/myprofilepage"
+    android:clickable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MyPageActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="32dp"
+                android:layout_gravity="center"
+                android:id="@+id/my_profile_img"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@mipmap/profle"/>
+
+            <TextView
+                android:id="@+id/nick_name_show"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="닉네임"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+
+            <Button
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:id="@+id/profile_change_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="프로필사진변경" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="더 좋은 결과를 원하시면 가능한 \n정면 얼굴 사진을 등록해주세요 :)"
+                android:layout_gravity="center_horizontal"
+                android:textSize="12sp"
+                android:textColor="#550000"/>
+            <Button
+                android:layout_marginTop="32dp"
+                android:layout_gravity="center"
+                android:id="@+id/profile_delete_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="나의 정보 삭제" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

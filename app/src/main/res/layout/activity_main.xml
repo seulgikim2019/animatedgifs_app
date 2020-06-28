@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+<!--    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="닉네임 : "
+                    />
+
+
+                <EditText
+                    android:id="@+id/nick_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="닉네임을 입력해주세요.(2~9자)"
+                    />
+
+                <Button
+                    android:id="@+id/nick_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="중복확인"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/no_nickname"
+                android:visibility="invisible"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="!!!!이미 사용중인 닉네임입니다!!!!"
+                android:textColor="@color/colorAccent"
+                />
+
+            <ImageView
+                android:layout_marginTop="24dp"
+                android:layout_gravity="center"
+                android:id="@+id/profile_img"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@mipmap/profle"/>
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/profile_btn"
+                android:layout_width="156dp"
+                android:layout_height="64dp"
+                android:text="프로필 사진 선택" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="더 좋은 결과를 원하시면 가능한 \n정면 얼굴 사진을 등록해주세요 :)"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#550000">
+
+            </TextView>
+
+
+            <Button
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:id="@+id/profile_ok_btn"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="등록" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
